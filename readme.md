@@ -7,7 +7,7 @@ composer require pkboom/spotify-apis
 
 Create shopify [client id](https://developer.spotify.com/dashboard/)
 
-Go to 'EDIT SETTING' -> Register Redirect URIs
+Go to 'EDIT SETTING' -> Register Redirect a URI
 
 Publish config-file and set it up
 ``` php
@@ -68,7 +68,7 @@ Route::get('spotify/me', 'SpotifyApisController@getMe');
 Route::get('spotify/search', 'SpotifyApisController@search');
 ```
 
-You could easily extends the class to create new methods
+You could easily extend the class to create new methods
 ```php
 use Pkboom\SpotifyApis as Spotify;
 
